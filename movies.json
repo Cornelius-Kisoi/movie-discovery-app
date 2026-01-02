@@ -1,0 +1,14 @@
+{
+    "action": [
+        { "id": "tt0468569", "title": "The Dark Knight" },
+        { "id": "tt0137523", "title": "Fight Club" }
+    ],
+    "drama": [
+        { "id": "tt0111161", "title": "The Shawshank Redemption" },
+        { "id": "tt0068646", "title": "The Godfather" }
+    ],
+    "sci-fi": [
+        { "id": "tt0133093", "title": "The Matrix" },
+        { "id": "tt0816692", "title": "Interstellar" }
+    ]
+}

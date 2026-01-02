@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Discovery App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="loader" class="loader"></div>
+
+    <div class="main-container">
+        <h2>Discover Movies</h2>
+        <div class="selection-panel">
+            <label for="genre">Genre:</label>
+            <select id="category-select">
+                <option value="">-- Choose Genre --</option>
+                <option value="action">Action</option>
+                <option value="drama">Drama</option>
+                <option value="sci-fi">Sci-Fi</option>
+            </select>
+            <label for="movie">Movie Title: </label>
+            <select id="movie-select">
+                <option value="">-- Choose a Movie --</option>
+            </select>
+        </div>
+
+        <div id="featured-movie" class="featured-container">
+            </div>
+
+        <div class="watchlist-section">
+            <h2>My Watchlist</h2>
+            <div id="favorites-list">
+                </div>
+        </div>
+    </div>
+
+    <div id="movie-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div id="modal-details"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
